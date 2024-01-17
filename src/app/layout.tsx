@@ -4,7 +4,6 @@ import "./globals.css";
 import Nav from "./nav";
 import Footer from "./footer";
 import StarBackground from './StarBackground'
-import VideoBackground from "./videobakground";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -19,9 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#000000] overflow-y-scroll overflow-x-hidden`}>
-        <StarBackground/>
-        <Nav />        
+      <body className={` bg-[#030014] overflow-y-scroll overflow-x-hidden`}>
+        {/* <StarBackground/> */}
+        <Nav />
         {children}
         <Footer />
       </body>

@@ -87,7 +87,7 @@ export default function Home() {
                   <motion.button
                     variants={buttonVariants}
                     whileHover="hover"
-                    className="logo border-2 border-white/50 px-4 py-2 rounded-full hover:bg-blue-900 active:bg-blue-700 my-8"
+                    className="btn border-2 border-white/50 px-4 py-2 rounded-full hover:bg-red-500 active:bg-red-700 my-8"
                   >
                     Become an Admin
                   </motion.button>
@@ -155,7 +155,7 @@ export default function Home() {
                 <motion.button
                   whileHover={{ scale: 1.05, originX: 0 }}
                   transition={{ type: "spring", stiffness: 300 }}
-                  className="logo bg-blue-950  p-2 rounded-md mt-4 hover:bg-blue-600 active:bg-blue-900"
+                  className="logo bg-blue-950 p-2 rounded-md mt-4 hover:bg-blue-600 active:bg-blue-900"
                 >
                   Reserve a seat
                 </motion.button>
