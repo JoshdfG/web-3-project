@@ -34,7 +34,7 @@ const Nav = () => {
 
   return (
     <header className="relative  w-full z-[1000] hover:shadow-xl">
-      <div className=" bg-black/90 shadow-xl p-2 z-[1000]">
+      <div className="footer bg-black/90 shadow-xl p-2 z-[1000]">
         <nav className="flex justify-between items-center w-[95%] md:w-[90%]  mx-auto p-1 my-auto  ">
           <div className=" font-bold text-2xl text-blue-900 ">
           <Image

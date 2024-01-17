@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <section
-        className=" bg-black/70 backdrop-blur-md relative w-full  text-gray-400 rounded-t-2xl mt-auto"
+        className=" bg-black/50 backdrop-blur-md relative w-full  text-gray-400 rounded-t-2xl mt-auto"
         id="about"
       >
         <div className=" w-[80%] md:w-[75%] mx-auto mt-12 pt-20">
