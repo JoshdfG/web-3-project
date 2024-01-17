@@ -102,7 +102,7 @@ const Nav = () => {
             <motion.div
               ref={menuRef}
               className=" 
-              md:hidden absolute overflow-hidden backdrop-blur-sm bg-black/95 left-0 right-0 mt-3 text-center rounded-b-2xl p-6 z-[999] hover:overflow-hidden"
+              md:hidden absolute overflow-hidden backdrop-blur-sm bg-black/80 left-0 right-0 mt-3 text-center rounded-b-2xl p-6 z-[999] hover:overflow-hidden"
               initial={{ opacity: 0, y: "-100%", zIndex: "-1" }}
               animate={{
                 opacity: 1,
