@@ -140,7 +140,7 @@ const Nav = () => {
                   return (
                     <motion.li
                       onClick={() => setOpen(false)}
-                      className="hover:rounded-lg p-1 ease-in-out w-full hover:text-blue-500 active:text-blue-900  "
+                      className="hover:rounded-lg p-1 ease-in-out w-full text-white hover:text-red-500 active:text-blue-900  "
                       whileHover={{ scale: 1.03, originX: 0 }}
                       transition={{ type: "spring", stiffness: 300 }}
                       key={id}
