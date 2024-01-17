@@ -34,7 +34,7 @@ const Nav = () => {
 
   return (
     <header className="relative  w-full z-[1000] hover:shadow-xl">
-      <div className=" bg-black/90 shadow-xl p-4 z-[1000]">
+      <div className=" bg-black/90 shadow-xl p-2 z-[1000]">
         <nav className="flex justify-between items-center w-[95%] md:w-[90%]  mx-auto p-1 my-auto  ">
           <div className=" font-bold text-2xl text-blue-900 ">
           <Image
@@ -68,7 +68,7 @@ const Nav = () => {
               })}
               <Link href="/login">
                 <motion.button
-                  className="logo bg-transparent border px-3 py-1 rounded-lg transition-all duration-75 ease-in-out  text-white mr-6 hover:bg-red-800  tracking-wider "
+                  className="logo bg-transparent border px-3 py-1 rounded-lg transition-all duration-75 ease-in-out  text-white mr-6 hover:bg-red-600  tracking-wider "
                   whileHover={{ scale: 1.1, originX: 0 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
@@ -80,7 +80,7 @@ const Nav = () => {
               <div>
                 <Link href="/login">
                   <motion.button
-                    className="bg-transparent border px-3 py-1 rounded-lg text-white mr-2 transition-all duration-75 ease-in-out  hover:bg-red-800  md:hidden tracking-wider logo active:outline-none active:bg-green-950"
+                    className="bg-transparent border px-3 py-1 rounded-lg text-white mr-2 transition-all duration-75 ease-in-out  hover:bg-red-600  md:hidden tracking-wider logo active:outline-none active:bg-green-950"
                     whileHover={{ scale: 1.05, originX: 0 }}
                     transition={{ type: "spring", stiffness: 300 }}
                   >
@@ -96,9 +96,9 @@ const Nav = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 {open === true ? (
-                  <FaTimes className=" text-2xl cursor-pointer text-white hover:text-red-800  transition-all duration-75 ease-in-out border-none md:hidden hover:shadow-teal-400 active:text-blue-950 active:outline-none" />
+                  <FaTimes className=" text-2xl cursor-pointer text-white hover:text-red-600  transition-all duration-75 ease-in-out border-none md:hidden hover:shadow-teal-400 active:text-blue-950 active:outline-none" />
                 ) : (
-                  <TiThMenu className=" text-2xl text-white border-none cursor-pointer md:hidden transition-all duration-75 ease-in-out hover:shadow-teal-200 hover:shadow-2xl hover:text-red-800  active:text-blue-950 active:outline-none active:border-none" />
+                  <TiThMenu className=" text-2xl text-white border-none cursor-pointer md:hidden transition-all duration-75 ease-in-out hover:shadow-teal-200 hover:shadow-2xl hover:text-red-600  active:text-blue-950 active:outline-none active:border-none" />
                 )}
               </motion.button>
             </div>
@@ -110,7 +110,7 @@ const Nav = () => {
             <motion.div
               ref={menuRef}
               className=" 
-              md:hidden absolute overflow-hidden backdrop-blur-sm bg-black/80 left-0 right-0 mt-3 text-center rounded-b-2xl p-6 z-[999] hover:overflow-hidden"
+              md:hidden absolute overflow-hidden backdrop-blur-sm bg-black/80 left-0 right-0 mt-1 text-center rounded-b-2xl p-8 z-[999] hover:overflow-hidden"
               initial={{ opacity: 0, y: "-100%", zIndex: "-1" }}
               animate={{
                 opacity: 1,

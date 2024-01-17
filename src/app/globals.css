@@ -39,8 +39,8 @@ body {
 }
 
 .logo:hover {
-  /* box-shadow: 0 0 20px rgba(255, 0, 21, 0.9); */
-  box-shadow: 0 0 20px rgba(0, 128, 255, 0.9);
+  box-shadow: 0 0 20px rgb(246, 2, 120);
+  /* box-shadow: 0 0 20px rgba(0, 128, 255, 0.9); */
 }
 .footer {
   background-image: url(./assets/process-bg.png);
