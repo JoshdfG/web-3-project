@@ -49,7 +49,7 @@ export default function Home() {
     <AnimatePresence>
       <>
         <section className="overflow-hidden overflow-x-hidden">
-          <div className=" mx-auto w-[80%] md:w-[75%]  text-white  md:items-center md:justify-center   md:flex md:flex-row-reverse mt-12">
+          <div className=" mx-auto w-[80%] md:w-[75%]  text-white mb-10  md:items-center md:justify-center   md:flex md:flex-row-reverse mt-12">
             <motion.div
               className="md:w-1/2 md:ml-4 "
               variants={containerVariants}
@@ -58,7 +58,7 @@ export default function Home() {
             >
               <Image
                 className="image-area shadow-md hover:scale-105 ease-in-out rounded-xl transition mx-auto duration-300  md:min-w-auto"
-                src="/services1.jpg"
+                src="/web3bridge.jpg"
                 alt="bus image"
                 width={400}
                 height={200}
@@ -107,7 +107,7 @@ export default function Home() {
           </p>
 
           <div className="md:grid grid-cols-2  w-[80%] md:w-[75%] mx-auto md:space-x-4">
-            <div className="bg-gray-200/10 flex-grow-0 text-center p-6 m-4  mx-auto rounded-3xl text-white/80">
+            <div className="bg-black/80 flex-grow-0 text-center p-6 m-4  mx-auto rounded-3xl text-white/80">
               <Image
                 className="w-[50%] h-auto mx-auto rounded-xl shadow-2xl mb-8 hover:scale-110 ease-in-out transition duration-300 cursor-pointer"
                 src="/services1.jpg"
@@ -135,7 +135,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className=" bg-gray-200/10 flex-grow-0 text-center p-6 m-4  mx-auto rounded-3xl text-white/80 ">
+            <div className=" bg-black/80 flex-grow-0 text-center p-6 m-4  mx-auto rounded-3xl text-white/80 ">
               <img
                 className="w-[50%] h-auto mx-auto mb-8 rounded-xl shadow-2xl hover:scale-110 ease-in-out transition duration-300 cursor-pointer"
                 src="/services 2.jpg"

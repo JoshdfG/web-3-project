@@ -5,6 +5,8 @@ import { FaTimes } from "react-icons/fa";
 import { TiThMenu } from "react-icons/ti";
 import { links } from "./data";
 import Link from "next/link"; // Use Next.js Link for navigation
+import Image from "next/image";
+
 
 const Nav = () => {
   const [open, setOpen] = useState(false);
@@ -35,7 +37,13 @@ const Nav = () => {
       <div className=" bg-black/90 shadow-xl p-4 z-[1000]">
         <nav className="flex justify-between items-center w-[95%] md:w-[90%]  mx-auto p-1 my-auto  ">
           <div className=" font-bold text-2xl text-blue-900 ">
-            GIGM.<span className="text-purple-800 ">COM</span>
+          <Image
+                className="image-area shadow-md hover:scale-105 ease-in-out rounded-xl transition mx-auto duration-300  md:min-w-auto"
+                src="/logo-dark.webp"
+                alt="bus image"
+                width={150}
+                height={100}
+              />
           </div>
 
           <div className="text-white tracking-wider">
