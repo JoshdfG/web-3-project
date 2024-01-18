@@ -34,7 +34,7 @@ const Nav = () => {
 
   return (
     <header className="relative  w-full z-[1000] hover:shadow-xl">
-      <div className="footer bg-black/90 shadow-xl p-2 z-[1000]">
+      <div className=" bg-black/40 shadow-xl p-2 z-[1000]">
         <nav className="flex justify-between items-center w-[95%] md:w-[90%]  mx-auto p-1 my-auto  ">
           <div className=" font-bold text-2xl text-blue-900 ">
           <Image
@@ -110,7 +110,7 @@ const Nav = () => {
             <motion.div
               ref={menuRef}
               className=" 
-              md:hidden absolute overflow-hidden backdrop-blur-sm bg-black/80 left-0 right-0 mt-1 text-center rounded-b-2xl p-8 z-[999] hover:overflow-hidden"
+              md:hidden absolute overflow-hidden backdrop-blur-lg bg-black/70 left-0 right-0 mt-1 text-center rounded-b-2xl p-8 z-[999] hover:overflow-hidden"
               initial={{ opacity: 0, y: "-100%", zIndex: "-1" }}
               animate={{
                 opacity: 1,

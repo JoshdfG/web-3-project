@@ -4,6 +4,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Variants } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
+import StarBackground from './StarBackground'
+
 
 export default function Home() {
   // animation for the image on the home screen
@@ -151,6 +153,9 @@ export default function Home() {
                   rerum ab facere facilis ipsam?
                 </p>
               </div>
+              {/* <div>
+              <StarBackground/>
+              </div> */}
               <Link href="/plane">
                 <motion.button
                   whileHover={{ scale: 1.05, originX: 0 }}
